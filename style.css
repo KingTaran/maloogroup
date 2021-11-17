@@ -6,6 +6,10 @@
   font-family: 'Poppins', sans-serif;
 } 
 
+body{
+  background-color: azure;
+}
+
   
 
 /* Promo Line */
@@ -25,16 +29,26 @@
   margin-top: 70px;
   text-align: center;
   background-color: beige;
+  font-size: 30px;
   color: black;
 }
 .service .heading{
-  background-color: white;
+  background-color: beige;
+}
+
+.service .heading p{
+  text-align: center;
+  margin-top: 15px;
+  color: red;
+  font-weight: 600;
+  margin-left: 0px!important;
 }
 
 .service-img img{
   width: 100%;
   height: auto;
   margin-top: 80px;
+
 }
 
 .wrapper{
@@ -67,6 +81,7 @@
   height: 100%;
   width: 100%;
   background: rgba(0,0,0,0.8);
+  background-color: brown;
 }
 .counter-up .content{
   z-index: 1;
@@ -88,6 +103,11 @@
   flex-direction: column;
   padding: 20px;
 }
+
+
+
+
+
 .content .box .icon{
   font-size: 48px;
   color: #e6e6e6;
@@ -139,7 +159,7 @@ nav{
 }
 nav .logo{
   color: #fff;
-  font-size: 26px;
+  font-size: 15px;
   font-weight: 600;
 }
 nav ul{
@@ -306,6 +326,8 @@ margin-right: 25px;
 float:left;
 width:300px;
 height:300px;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+border-radius: 10%;
 /* max-width: 100%; */
 /* height: auto; */
  } 
@@ -318,6 +340,7 @@ height:300px;
      padding: 0 30px;
      color: #1b1b1b;
      margin-bottom: 80px;
+     background-color: steelblue;
  }
 
  .container3 {
